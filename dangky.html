@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">TMShop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown">
+                            Danh mục
+                        </a>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="danhmucsam.html">Samsung</a>
+                            <a class="dropdown-item" href="danhmucip.html">Iphone</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                </form>
+                <a href="dangnhap.html"><button class="btn btn btn-outline-primary my-2 my-sm-0">Đăng Nhập</button></a>
+                <a href="dangky.html"><button class="btn btn btn-outline-secondary my-2 my-sm-0">Đăng Ký</button></a>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <!-- end menu -->
+    <!--form sign-->
+    <div class="container">
+        <form class="needs-validation" novalidate>
+            <div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom01">Họ</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                        value="Mark" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom02">Tên</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto"
+                        required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom06">Ngày sinh </label>
+                    <input type="date" class="form-control" id="validationCustom06" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustomUsername">Email</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Email"
+                            aria-describedby="inputGroupPrepend" required>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom03">Mật khẩu</label>
+                    <input type="password" class="form-control" id="validationCustom03" placeholder="Mật khẩu" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom04">Số Điện Thoại</label>
+                    <input type="text" class="form-control" id="validationCustom04" required>
+                </div>
+                <div class="col-md-8 mb-3">
+                    <label for="validationCustom05">Địa chỉ</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Địa chỉ" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Bạn đồng ý với các điều khoản của chúng tôi
+                    </label>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit"><a href="thongbao.html" style="text-decoration: none; color: white;">Đăng Ký</a></button>
+        </form>
+    </div>
+    <hr>
+    <!--end form-->
+    <!-- footer -->
+    <footer class="navbar-expand-lg bg-light">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="navbar-brand">Hỗ Trợ Khách Hàng</h3>
+                <p>Hotline : 0914-491-028</p>
+                <span>(8 - 21h kể cả T7, CN)</span>
+            </div>
+            <div class="footer-content">
+                <h3 class="navbar-brand">Về chúng tôi</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#">TMShop</a></li>
+                    <li class="footer-item"><a href="#">Khuyến mãi</a></li>
+                    <li class="footer-item"><a href="#">Tuyển dụng</a></li>
+                    <li class="footer-item"><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3 class="navbar-brand">Thanh Toán</h3>
+                <img src="image/thanh-toan.png" alt="hinh thanh toan">
+            </div>
+            <div class="footer-content">
+                <h3 class="navbar-brand">Hệ Thống Show Room TMShop</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#">69 Điện biên phủ, phường 5, quận bình thạnh, TP.HCM</a></li>
+                    <li class="footer-item"><a href="#">169 Điện biên phủ, phường 5, quận bình thạnh, TP.HCM</a></li>
+                    <li class="footer-item"><a href="#">269 Điện biên phủ, phường 5, quận bình thạnh, TP.HCM</a></li>
+                    <li class="footer-item"><a href="#">369 Điện biên phủ, phường 5, quận bình thạnh, TP.HCM</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <hr>
+        <div class="col-sm-12 text-center">
+            <p>&copy; TMShop - Đơn Vị Bán Lẻ Điện Thoại chính hãng TP.HCM</p>
+        </div>
+    </footer>
+    <!-- end footer-->
+    <!-- Load jquery trước khi load bootstrap js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
